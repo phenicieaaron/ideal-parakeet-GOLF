@@ -1,30 +1,51 @@
-.row {
-    border: solid 1px #000;
-    
+*{
+  background-color: black;
+}
+
+.card .card-header{
+  text-align:center;
+  font-weight:bold;
+  color:gold;
+  background-color:purple;
+  border:3px solid black;
+}
+
+.card .card-body{
+  background-color:gold;
+   border:3px solid black;
+}
+
+.card .card-body a{
+  color:purple;
+  font-weight:bold;
+  text-align:center;
+  margin-left:auto;
+  margin right:auto;
+  text-decoration:none;
+}
+
+.row:{
+display: flex;
+justify-content: center;
+align-items:center;
+min-height:400px;
+
 }
 
 .card {
-  margin-top: 7px;
+  align-items:stretch;
+  max-height:275px;
+  max-width:300px;
+  padding: 2px 2px 2px 2px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  
 }
 
+.card-body{
+  font-size:20px;
+  text-decoration:none;
+  text-align:center;
 
-body {
-    width: 100vw;
-  
-    height: 100vh;
-  
-  
-    
-  
-    background: #0e101b;
-  }
-  
-
-.centerButton {
-  text-align: center;
-}
-
-
-.card-title, .card-text {
-  text-align: center;
 }
