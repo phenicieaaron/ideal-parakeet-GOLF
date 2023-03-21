@@ -1,22 +1,22 @@
 $(function () {
-    $.each(classCharlies, function (index, data) {
+    $.each(userGames, function (index, data) {
       // $("body").append(index + data);
   
       $("body").append(
         '<div class="card"> <div class="card-header"> ' +
           data.name +
           '</div><div class="card-body">' +
-          '<a href="' +
+          '<a target ="_blank" href="' +
           data.url +
           '">' +
           data.gameName +
-          "'s game" +
+           
           "</a></div></div>"
       );
     });
   });
   
-  const classCharlies = [
+  const userGames = [
     {
       name: "Connor Brown",
       gameName: "Sad Lebron",
@@ -28,12 +28,12 @@ $(function () {
       url: "https://phenicieaaron.github.io/upgraded-tribble-echo/"
     },
     {
-      name: "Gage Last Name?",
+      name: "Gage Mathis",
       gameName: "Gage's Gamespace",
       url: "https://gagethekidd.github.io/eery-eel-echo/#"
     },
     {
-      name: "Amanna Waria?",
+      name: "Aman Nawaria",
       gameName: "Amanna's Gamespace",
       url: "https://amannawaria12.github.io/Echo_lab/"
     },
@@ -47,57 +47,55 @@ $(function () {
       gameName: "Move Sphagett",
       url: "https://mithrandiryeet.github.io/charlie_spaghett_1/"
     },
-     {
-      name: "Will Wiggins",
-      gameName: "Spaghett name ",
-      url: "https://mithrandiryeet.github.io/delta_name_game/#"
-    },
-    
        {
       name: "Jackson Thompson",
       gameName: "WooWop ",
       url: "https://jacksonthompson1.github.io/jt-lab-echo/"
     },
-       {
-      name: "Weston Jumphries",
-      gameName: "Wow ",
-      url: "https://westonhumphries.github.io/studious-carnival-delta/"
-    },
     {
-    name: "Weston Jumphries",
-      gameName: "Wow Picture",
-      url: "https://westonhumphries.github.io/bug-free-octo-barnacle-charlie/"
-    },
-    {
-    name: "Weston Jumphries",
+    name: "Weston Humphries",
       gameName: "Drag Wow Picture",
       url: "https://westonhumphries.github.io/laughing-octo-bravo/"
     },
-       {
-      name: "Kaibry southern",
-      gameName: "Fun Dog",
-      url: "https://kaibrysouthern.github.io/legendary-adventure-charlie/"
-    },
     {
-    name: "Kaibry southern",
-      gameName: "Fun Name",
+    name: "Kaibry Southern",
+      gameName: "Fun Name Game",
       url: "https://kaibrysouthern.github.io/psychic-octo-adventure-delta/"
-    },
-       {
-      name: "Brody Coan",
-      gameName: "SuperWow V2.0",
-      url: "https://bcoan2.github.io/scaling-computing-machine-Charlie/"
-    },
+    },  
        {
       name: "Brody Coan",
       gameName: "Brody's Name Game",
       url: "https://bcoan2.github.io/supreme-octo-broccoli-delta/"
-    },
+    },    
        {
-      name: "Brody Coan",
-      gameName: "Brody's name facts",
-      url: "https://bcoan2.github.io/psychic-umbrella-alpha/"
+      name: "Jason Conkle",
+      gameName: "Chess Quiz Game",
+      url: "https://jconkle5.github.io/loose-juice-charlie/"
+    },  
+    {
+      name: "Anna Stokes",
+      gameName: "Anna's Name Game",
+      url: "https://stokeybear.github.io/DeltaLab/"
+    },  
+    {
+      name: "Anh Nguyen",
+      gameName: "Anh's Doge Game",
+      url: "https://stokeybear.github.io/DeltaLab/"
     },
-    
- 
+    {
+      name: "Robert Marcum",
+      gameName: "Robert's Charlie Game",
+      url: "https://cis-376-charlie.catharsis11867.repl.co/"
+    },
+    {
+      name: "Vanessa Beard",
+      gameName: "Vanessa's Charlie Repo",
+      url: "https://github.com/vbeard240/Charlie-Lab"
+    },
+    {
+      name: "Junnosuke Noiri",
+      gameName: "Junnosuke's Name Game",
+      url: "https://junnoiri.github.io/cis-376-DELTA-lab/"
+    },
   ];
+
